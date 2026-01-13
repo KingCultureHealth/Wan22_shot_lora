@@ -40,6 +40,9 @@ The key to getting a good shot change is to describe **two distinct states** in 
 *   **T2V:** "特写镜头展示一位女性的眼睛，镜头切换到一幅展示夜晚未来赛博朋克城市的广角无人机镜头。"
 *   **I2V (with input image of a car):** "汽车驶下高速公路，镜头切换，转场到海洋上空的日落景象。"
 
+https://github.com/user-attachments/assets/32c3a79f-d444-4dc9-8fab-aaf6849e2b86
+
+
 ## 🚀 Workflows
 
 ### ComfyUI
