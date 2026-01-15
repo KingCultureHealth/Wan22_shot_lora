@@ -17,6 +17,7 @@ Its primary goal is to **break the continuity** typically found in AI videos and
 ## 📥 Download
 
 *   **HuggingFace:** [[model](https://huggingface.co/King-CH/wan22_shot_lora)]
+*   all model is high-denoise model, base wan22 weights is ok for low-denoise model
 
 ## 🛠️ Usage
 
