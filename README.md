@@ -16,8 +16,7 @@ Its primary goal is to **break the continuity** typically found in AI videos and
 
 ## 📥 Download
 
-*   **HuggingFace:** [Link to your HF repo]
-*   **Civitai:** [Link to your Civitai page]
+*   **HuggingFace:** [[model](https://huggingface.co/King-CH/wan22_shot_lora)]
 
 ## 🛠️ Usage
 
@@ -71,7 +70,7 @@ pipe = WanVideoPipeline.from_pretrained(
         ModelConfig(model_id="Wan-AI/Wan2.2-T2V-A14B", origin_file_pattern="Wan2.1_VAE.pth"),
     ],
 )
-pipe.load_lora(pipe.dit, "step-1000.safetensors", alpha=1)
+pipe.load_lora(pipe.dit, "t2v_shot.safetensors", alpha=1)
 
 video = pipe(
     prompt="特写镜头展示一位女性的眼睛，镜头切换到一幅展示夜晚未来赛博朋克城市的广角无人机镜头。",
